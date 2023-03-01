@@ -1,3 +1,3 @@
 # test-auto-notify
 
-test
+test 2
