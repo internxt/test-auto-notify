@@ -1,0 +1,11 @@
+name: Notify Releases
+on:
+  push:
+    branches:
+      - master
+    
+jobs:  
+  update-release-and-notify:
+    uses: internxt/automation/.github/workflows/test.yml@master
+    with:
+      branch: master
